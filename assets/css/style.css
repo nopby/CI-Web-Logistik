@@ -1,0 +1,25 @@
+h1,h2,h3,h4,b,td,tr,table,th{
+    color: white;
+}
+
+.card h1, .card h2, .card h3, .card h4, .card b, .card td, .card tr, .card table, .card th{
+    color: black;
+    border-color: darkgray;
+}
+.card {
+    background-color: rgb(233, 233, 233);
+}
+
+.profile-image{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border-radius: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.thumb {
+    height: 160px;
+    width: 160px;
+}
